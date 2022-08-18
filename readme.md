@@ -1,28 +1,34 @@
-<p align="center">
-  <img width="128" height="128" src="https://user-images.githubusercontent.com/2746374/179428323-6d6b5e7f-6459-47b3-9e03-fea7553d85af.svg" />
-</p>
-
-<h1 align="center">Nightfox</h1>
-
-<p align="center">
-  <a href="https://github.com/edeneast/nightfox.nvim/stargazers"><img src="https://img.shields.io/github/stars/edeneast/nightfox.nvim?colorA=192330&colorB=719cd6&style=for-the-badge"></a>
-  <a href="https://github.com/edeneast/nightfox.nvim/issues"><img src="https://img.shields.io/github/issues/edeneast/nightfox.nvim?colorA=192330&colorB=dbc074&style=for-the-badge"></a>
-  <a href="https://github.com/edeneast/nightfox.nvim/contributors"><img src="https://img.shields.io/github/contributors/edeneast/nightfox.nvim?colorA=192330&colorB=81b29a&style=for-the-badge"></a>
-  <a href="https://github.com/EdenEast/nightfox.nvim/network/members"><img src="https://img.shields.io/github/forks/edeneast/nightfox.nvim?colorA=192330&colorB=9d79d6&style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  A highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins.
-</p>
-
 <div align="center">
-  <h3>Nightfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456286-9e3ee657-60e6-49d8-b85e-dcab285b31c3.png" alt="nightfox" style="border-radius:1%" />
-  <h3>Dayfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456281-e8a968c0-e282-4943-b919-3d8454ca0529.png" alt="dayfox" style="border-radius:1%" />
-  <h3>Dawnfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456278-c5d656de-c445-44b8-9813-9fc91ffbce4c.png" alt="dawnfox" style="border-radius:1%" />
-  <h3>Duskfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456284-b6ff583f-c0bb-417c-b2d5-60b8364049a7.png" alt="duskfox" style="border-radius:1%" />
-  <h3>Nordfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456289-eee096df-7ea7-4161-9199-808fdba58e06.png" alt="nordfox" style="border-radius:1%" />
-  <h3>Terafox</h3><img src="https://user-images.githubusercontent.com/2746374/160268126-cd417690-3660-4a04-9040-183c35f127f7.png" alt="terafox" style="border-radius:1%" />
-  <h3>Carbonfox</h3><img src="https://user-images.githubusercontent.com/2746374/183569670-91260cab-83a9-4247-8e09-6abb46c52152.png" alt="carbonfox" style="border-radius:1%" />
+
+<!-- <img width="128" height="128" src="https://user-images.githubusercontent.com/2746374/179428323-6d6b5e7f-6459-47b3-9e03-fea7553d85af.svg" /> -->
+
+<h1>Nightfox</h1>
+
+<br>
+
+[![Badge License]][License] 
+![Badge Language] 
+[![Badge Pull Requests]][Pull Requests] 
+[![Badge Issues]][Issues] 
+
+---
+
+<h3>A highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins.</h3>
+
+_A fork from [nightfox.nvim]. This is my personalise version. At the momemnt, this repo is nothing different from the original one._  
+
+---
+
+<br>
+
+<!-- <h3>Nightfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456286-9e3ee657-60e6-49d8-b85e-dcab285b31c3.png" alt="nightfox" style="border-radius:1%" /> -->
+<!-- <h3>Dayfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456281-e8a968c0-e282-4943-b919-3d8454ca0529.png" alt="dayfox" style="border-radius:1%" /> -->
+<!-- <h3>Dawnfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456278-c5d656de-c445-44b8-9813-9fc91ffbce4c.png" alt="dawnfox" style="border-radius:1%" /> -->
+<!-- <h3>Duskfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456284-b6ff583f-c0bb-417c-b2d5-60b8364049a7.png" alt="duskfox" style="border-radius:1%" /> -->
+<!-- <h3>Nordfox</h3><img src="https://user-images.githubusercontent.com/2746374/158456289-eee096df-7ea7-4161-9199-808fdba58e06.png" alt="nordfox" style="border-radius:1%" /> -->
+<!-- <h3>Terafox</h3><img src="https://user-images.githubusercontent.com/2746374/160268126-cd417690-3660-4a04-9040-183c35f127f7.png" alt="terafox" style="border-radius:1%" /> -->
+<!-- <h3>Carbonfox</h3><img src="https://user-images.githubusercontent.com/2746374/183569670-91260cab-83a9-4247-8e09-6abb46c52152.png" alt="carbonfox" style="border-radius:1%" /> -->
+
 </div>
 
 > Tabline is [tabby.nvim] and statusline is [feline.nvim]. You can find my config for [tabby] and [feline] here as well
@@ -36,8 +42,9 @@
 [conf-colors]: https://github.com/EdenEast/nyx/blob/573ff3f22da95c00ec71a094b3e1ec166c0afcdd/config/.config/nvim/lua/eden/modules/ui/colors.lua
 [misc-feline]: ./misc/feline.lua
 [misc-tabby]: ./misc/tabby.lua
+[nightfox.nvim]: https://github.com/EdenEast/nightfox.nvim
 
-## Notice ℹ️
+# Notice ℹ️
 
 Nightfox has recently been [rewritten][rewrite-pr] and has deprecated most of the previous interface. If you are not
 ready to update yet you can point your package manager to use the tag [`v1.0.0`][v1-tag] for the mean time.
@@ -55,7 +62,7 @@ Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' } " Vim-Plug
 
 </details>
 
-### Changes
+## Changes
 
 - `nightfox.load()` has been removed in favour of setting colorschemes using the builtin `:colorscheme` command
 - `nightfox.setup()` function now takes configuration options as an optional key
@@ -90,7 +97,7 @@ Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' } " Vim-Plug
 
 </details>
 
-## Features
+# Features
 
 - Supports both vim and neovim
 - Highly configurable with template overriding
@@ -100,7 +107,7 @@ Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' } " Vim-Plug
 - Export [Color](#color-lib) library utility
 - [Interactive](#interactive) live config realoading
 
-## Requirements
+# Requirements
 
 - Neovim >= 0.5 **or** Vim 8.2 with lua >= 5.2
 - True color support
@@ -111,7 +118,7 @@ Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' } " Vim-Plug
 
 [another]: https://gist.github.com/XVilka/8346728#terminal-emulators
 
-## Installation
+# Installation
 
 Download with your favorite package manager.
 
@@ -123,7 +130,7 @@ use "EdenEast/nightfox.nvim" -- Packer
 Plug 'EdenEast/nightfox.nvim' " Vim-Plug
 ```
 
-## Usage
+# Usage
 
 Simply set the colorscheme with the builtin command `:colorscheme`
 
@@ -135,7 +142,7 @@ colorscheme nightfox
 vim.cmd("colorscheme nightfox")
 ```
 
-## Configuration
+# Configuration
 
 There is no need to call `setup` if you don't want to change the default options and settings.
 
@@ -198,7 +205,7 @@ require('nightfox').setup({
 To see a detailed explanation of nightfox's config settings consult either the builtin help `:help nightfox` or
 [Usage](./usage.md).
 
-### Modules
+## Modules
 
 Nightfox's modules store configuration information for various plugins and other neovim modules. To enable a module
 either set the module to `true` or if the module has additional configuration information set `enable` to `true`.
@@ -321,7 +328,7 @@ To get more information check out [Usage](./usage.md#configuration) or the help 
 [syntax.lua]: https://github.com/EdenEast/nightfox.nvim/blob/main/lua/nightfox/group/syntax.lua
 [treesitter.lua]: https://github.com/EdenEast/nightfox.nvim/blob/main/lua/nightfox/group/modules/treesitter.lua
 
-### Custom template values
+## Custom template values
 
 Nightfox's `palettes` and `specs` can be extended with your own values. This is useful for users that want to
 distinguish a spec value being used for multiple group definitions. This is best understood with an example:
@@ -357,12 +364,12 @@ require("nightfox").setup({
 })
 ```
 
-### Multiple setup calls
+## Multiple setup calls
 
 The `setup` function can be called multiple times. Each call to `setup` will merge nightfox's internal configuration
 table.
 
-#### Example
+### Example
 
 ```lua
 local nightfox = require("nightfox")
@@ -395,11 +402,11 @@ print(vim.inspect(require('nightfox.override').groups))
 -- }
 ```
 
-## Api
+# Api
 
 Nightfox exposes some Api's and utility classes that let you fetch data from nightfox.
 
-### Palettes
+## Palettes
 
 You can get the palettes used by each colorscheme:
 
@@ -420,7 +427,7 @@ print(vim.inspect(palette.red))
 
 See [Usage](./usage.md#palette) for more information on palettes.
 
-### Specs
+## Specs
 
 You can get the spec used by each colorscheme:
 
@@ -441,7 +448,7 @@ print(vim.inspect(spec.git))
 
 See [Usage](./usage.md#spec) for more information on specs.
 
-### Color lib
+## Color lib
 
 Nightfox uses a color library internally to manipulate colors. You can use this library as well.
 
@@ -472,7 +479,7 @@ print(vim.inspect(alt_bg:to_hsv()))
 There are a lot of useful functions to manipulate and work with colors in different color spaces.
 See [Usage](./usage.md#color) for more information on `Color`.
 
-## Compile
+# Compile
 
 Nightfox is a highly customizable and configurable colorscheme. There are endless ways to customize nightfox. This does
 however come at the cost of complexity and execution time. Nightfox can pre compute the results of your configuration
@@ -506,7 +513,7 @@ For packer users you can create a compile file after nightfox has installed:
 use { "EdenEast/nightfox.nvim", run = ":NightfoxCompile", },
 ```
 
-## Interactive
+# Interactive
 
 Nightfox makes it easy to make changes to its config and see the results. For this nightfox exposes the command:
 
@@ -527,7 +534,7 @@ There are a few things to note:
 - If you are using packer and have nightfox's config in a `config = function() end` block, this will not work as packer
   would require to be re-compiled and the compiled file sourced.
 
-## Supported Plugins
+# Supported Plugins
 
 - [aerial.nvim](https://github.com/stevearc/aerial.nvim)
 - [barbar.nvim](https://github.com/romgrk/barbar.nvim)
@@ -584,7 +591,7 @@ vim.g.lightline = { colorscheme = "nightfox" } -- Or the name of colorscheme you
 This section will help you determine what highlight group is being applied to a piece of syntax. These sections will
 output the highlight group for the value under the cursor.
 
-#### Treesitter highlighting
+### Treesitter highlighting
 
 If treesitter is the highlighting method for the language in question you can use the command:
 `:TSHighlightCapturesUnderCursor`. This command comes from the treesitter [playground] plugin. Make
@@ -593,7 +600,7 @@ sure you have this installed as well as [nvim-treesitter].
 [playground]: https://github.com/nvim-treesitter/playground#show-treesitter-and-syntax-highlight-groups-under-the-cursor
 [nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter
 
-#### Vim highlighting
+### Vim highlighting
 
 Add this vimscript function to your configuration.
 
@@ -623,7 +630,7 @@ map <F2> <cmd>call SynStack()<cr>
 
 </details>
 
-## Extra
+# Extra
 
 There are [extra](./extra) configuration files for the following:
 
@@ -640,7 +647,7 @@ There are [extra](./extra) configuration files for the following:
 [lualine]: https://github.com/nvim-lualine/lualine.nvim
 [lightline]: https://github.com/itchyny/lightline.vim
 
-## Acknowledgements
+# Acknowledgements
 
 - [catppuccin](https://github.com/catppuccin/nvim/) (integration/modules)
 - [rose-pine](https://github.com/rose-pine/nvim) (dawnfox/duskfox)
@@ -649,7 +656,7 @@ There are [extra](./extra) configuration files for the following:
 - [colorhexa](https://www.colorhexa.com/) (detailed color information)
 - [neogit](https://github.com/TimUntersberger/neogit/blob/b688a2c/lua/neogit/lib/color.lua) (base for color lib)
 
-## References
+# References
 
 Some themes were inspired by wallpapers.
 
@@ -663,6 +670,20 @@ Some themes were inspired by wallpapers.
 <img src="https://user-images.githubusercontent.com/2746374/179428810-69b440d1-7107-49f2-ab2b-aaab1c449cce.jpeg" alt="terafox_reference" />
 </details>
 
-## 💝 Thanks to
+<!-- ## 💝 Thanks to -->
+<!---->
+<!-- - [@keifererikson](https://github.com/keifererikson) for logo -->
 
-- [@keifererikson](https://github.com/keifererikson) for logo
+
+<!----------------------------------------------------------------------------->
+
+[Pull Requests]: https://github.com/newbee1905/nightfox.nvim/pulls
+[Issues]: https://github.com/newbee1905/nightfox.nvim/issues
+[License]: https://choosealicense.com/licenses/mit
+
+<!----------------------------------{ Badges }--------------------------------->
+
+[Badge Issues]: https://img.shields.io/github/issues/newbee1905/nightfox.nvim?colorA=192330&colorB=dbc074&style=for-the-badge
+[Badge Pull Requests]: https://img.shields.io/github/issues-pr/newbee1905/nightfox.nvim?colorA=192330&colorB=719cd6&style=for-the-badge
+[Badge Language]: https://img.shields.io/github/languages/top/newbee1905/nightfox.nvim?colorA=192330&style=for-the-badge
+[Badge License]: https://img.shields.io/github/license/newbee1905/nightfox.nvim?colorA=192330&colorB=9d79d6&style=for-the-badge
